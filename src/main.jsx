@@ -7,6 +7,8 @@ import Links from './components/Links.jsx'
 import UltimateSale from './components/UltimateSale.jsx'
 import Features from './components/Features.jsx'
 import EmptySection from './components/EmptySection.jsx'
+import { BookingSection } from "./components/BookingSection.jsx";
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -17,5 +19,6 @@ createRoot(document.getElementById('root')).render(
     <UltimateSale/>
     <EmptySection/>
     <Features/>
+    <BookingSection />
   </StrictMode>,
 )
