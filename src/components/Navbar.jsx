@@ -3,7 +3,7 @@ import { Search, ShoppingCart, User } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <header className="bg-[rgba(104,107,85,1)] text-white p-4 flex items-center justify-around">
+    <header className="bg-[rgba(104,107,85,1)] text-white p-4 flex items-center justify-between md:justify-around">
       {/* Логотип и название */}
       <div className="flex items-center gap-2">
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
 
       {/* Поисковик */}
-      <div className="flex relative w-1/3">
+      <div className="flex relative w-full sm:w-1/3 md:w-1/4">
         <input
           type="text"
           placeholder="Найти..."
