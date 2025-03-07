@@ -8,6 +8,12 @@ import UltimateSale from './components/UltimateSale.jsx'
 import Features from './components/Features.jsx'
 import EmptySection from './components/EmptySection.jsx'
 import { BookingSection } from "./components/BookingSection.jsx";
+import CategoriesGrid from "./components/CategoriesGrid";
+import Slider from './components/Slider.jsx'
+// import ProductList from './components/ProductList.jsx'
+import Contacts from './components/Contacts.jsx'
+import Footer from './components/Footer.jsx'
+
 
 
 
@@ -19,6 +25,11 @@ createRoot(document.getElementById('root')).render(
     <UltimateSale/>
     <EmptySection/>
     <Features/>
+    <CategoriesGrid />
+    <Slider/>
     <BookingSection />
+    {/* <ProductList/> */}
+    <Contacts/>
+    <Footer/>
   </StrictMode>,
 )
