@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Navbar from './components/Navbar.jsx'
 import Links from './components/Links.jsx'
-import UltimateSale from './components/UltimateSale.jsx'
+import ImageContainer from "./components/ImageContainer";
 import Features from './components/Features.jsx'
 import EmptySection from './components/EmptySection.jsx'
 import { BookingSection } from "./components/BookingSection.jsx";
@@ -22,7 +22,7 @@ createRoot(document.getElementById('root')).render(
     <App />
     <Navbar />
     <Links/>
-    <UltimateSale/>
+    <ImageContainer/>
     <EmptySection/>
     <Features/>
     <CategoriesGrid />
